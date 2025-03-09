@@ -1,0 +1,319 @@
+<!--  
+Profilil Page
+--html css & Bootstrap ---
+--version:5.0.0
+auther:Alright Reserve -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shawzon Contact-Us Page</title>
+  <!--<##########> Start of External CSS <##########>-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!--<##########> End of External CSS <##########>-->
+
+  <!--<##########> Start Bootstrap CSS <##########>-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--<##########> End Bootstrap CSS <##########>-->
+
+  <!--<##########> Start Bootstrap Icons <##########>-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--<##########> End Bootstrap Icons <##########>-->
+
+</head>
+
+<body>
+  <!--<###########> Navbar Contact Us Page <###########>-->
+  <nav class="navbar navbar-expand-lg bg-white py-3">
+    <div class="container">
+      <!--###########> Logo-contact-us <###########>-->
+      <a class="navbar-brand" href="#">
+        <img src="images/Group 92.png" alt="Logo" height="40">
+      </a>
+  
+      <!-- Toggler button for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!--###########> Navbar Content <###########>-->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!--###########> Search Bar-contact-us <###########>-->
+        <form class="d-flex mx-auto w-50" role="search">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <select class="form-select" aria-label="Select Tags">
+                <option selected>All Tags</option>
+                <option value="1">Tag 1</option>
+                <option value="2">Tag 2</option>
+              </select>
+            </div>
+            <input class="form-control" type="search" placeholder="Search for any product" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+  
+        <!-- Icons Section -->
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column">
+            <p class="text-align-center">Record</p>
+            <a href="#" class="text-dark me-4 text-decoration-none">
+              <i class="bi bi-heart"></i>
+              <span>My Items</span>
+            </a>
+          </div>
+          <div>
+            <p>Sign In</p>
+            <a href="#" class="text-dark me-4 text-decoration-none">
+              <i class="bi bi-person"></i> Account
+            </a>
+          </div>
+          <a href="#" class="text-dark position-relative text-decoration-none">
+            <p><i class="bi bi-cart fs-5 position-absolute top-0 "></i></p>
+            <p>$0.00</p>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">1</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div class="container-fluid container-contact-us shadow-lg">
+    <!-- Navbar-Contact Us Page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container">
+        <!-- Categories Dropdown with Hamburger Icon -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCategories" aria-controls="navbarCategories" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <i class="d-sm-none bi bi-list me-2"></i> All Categories
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarCategories">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarHome" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarHome">
+                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="#">Home 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarShop" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarShop">
+                <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                <li><a class="dropdown-item" href="#">Shop 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Collection</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarPages" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarPages">
+                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                <li><a class="dropdown-item" href="#">Page 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarContact" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contact Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarContact">
+                <li><a class="dropdown-item" href="#">Contact 1</a></li>
+                <li><a class="dropdown-item" href="#">Contact 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+ 
+  <!--<##########> End of Contact us Form Section <##########>-->
+  <!--<##########> Start of Contact us Form Section <##########>-->
+  <div class="container border-5 rounded my-3 shadow-sm">
+    <div class="row">
+        <div class="col-12 breadcrumb-section">
+            <h2>Contact us</h2>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5" style="background-color: #F1F3F7;">
+  <div class="row justify-content-between align-items-center">
+      <!-- Left Section with Contact Info -->
+      <div class="col-md-6 mb-4 mb-md-0">
+          <h2 class="contact-heading">Let's talk with us</h2>
+          <p>Questions, comments, or suggestions? Simply fill in the form and we’ll be in touch shortly.</p>
+          <div class="contact-info">
+              <p>
+                  <!-- <img src="https://img.icons8.com/color/48/000000/place-marker--v1.png" alt="Address Icon" class="icon"> -->
+                    <i class=" bi-icons bi bi-geo-alt text-primary fs-4 me-2"></i>
+                  1055 Islamabad ave Elk Groot, 67.<br> New Capital of Pakistan.
+              </p>
+              <p>
+                  <!-- <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone Icon" class="icon"> -->
+                  <i class=" bi-icons bi bi-telephone text-primary fs-4 me-2"></i>
+                  +922 34 678 9199
+              </p>
+              <p>
+                  <!-- <img src="https://img.icons8.com/color/48/000000/new-post.png" alt="Email Icon" class="icon"> -->
+                  <i class=" bi-icons bi bi-envelope text-primary fs-4 me-2"></i>
+                  Contact@shawzon.com
+              </p>
+          </div>
+      </div>
+
+      <!-- Right Section with Form -->
+      <div class="col-md-6">
+          <div class="card p-4 shadow-sm">
+              <form>
+                  <div class="row mb-3"> 
+                      <div class="col-md-6 mb-md-3 ">
+                          <input type="text" class="form-control" placeholder="First Name">
+                      </div>
+                      <div class="col-md-6">
+                          <input type="text" class="form-control" placeholder="Last Name">
+                      </div>
+                  </div>
+                  <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Phone Number*">
+                  </div>
+                  <div class="mb-3">
+                      <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>
+                  </div>
+                  <div class="d-grid">
+                      <button type="submit" class="btn text-white" style=" background: #569F3A;
+;">Send Message</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!--<##########> End of Contact us Form Section <##########>-->
+  <!--<##########> End of Footer Designed Section <##########>-->
+  <footer class="bg-light text-dark pt-5">
+    <div class="container">
+      <div class="row">
+        <!-- Logo and Contact Information -->
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <img src="images/Group 92.png" alt="" width="80px" height="">
+          <p class="pt-4">
+          <div class="heading-3 ">
+            <div class="d-flex py-1"> 
+              <i class="bi bi-geo-alt text-primary fs-4 me-2"></i>
+              <p> Gubelstrasse 15, 6300 Zug</p><br>
+            </div>
+            <div class="d-flex py-1">
+              <i class="bi bi-telephone text-primary fs-4 me-2"></i>
+              <p>+41 79 624 82 42</p><br>
+            </div>
+            <div class="d-flex py-1">
+              <i class="bi bi-envelope text-primary fs-4 me-2"></i>
+              <p>All Rights Reserved</p>
+            </div>
+          </div>
+          </p>
+        </div>
+
+        <!-- Learn Links -->
+        <div class="col-lg-2 col-md-6 text-md-start">
+          <h6 class="Heading-5 fw-bold">ABOUT US</h6>
+          <ul class="list-unstyled py-2">
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">About us</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Store location</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Contact</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Order tracking</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Links -->
+        <div class="col-lg-2 col-md-6 text-md-start">
+          <h6 class="Heading-5 fw-bold">USEFUL LINKS</h6>
+          <ul class="list-unstyled py-2">
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Returns</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Support Policy</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Size guide</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="col-lg-2 col-md-6  text-md-start">
+          <h6 class="Heading-5 fw-bold">Services</h6>
+          <ul class="list-unstyled py-2">
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Profile Revision</a></li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">LinkedIn Profile Revision</a>
+            </li>
+            <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="col-lg-2  text-center text-md-start">
+          <h6 class="Heading-5 fw-bold">Follow Us</h6>
+          <ul class="list-unstyled py-2">
+          <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Facebook</a></li>
+          <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Twitter</a></li>
+          <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Instagram</a></li>
+          <li class="py-2"><a href="#" class="anchor text-dark text-decoration-none">Youtube</a></li>
+        </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="border-color border-4 text-dark">
+      <div class="row my-3">
+        <div class="col">
+          <p class="text-center" style="color: #949494;">All rights reserved</p>
+          
+        </div>
+      </div>
+  </footer>
+  <!--<##########> End of Footer Designed Section <##########>-->
+
+  <!-- Bootstrap Icons -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

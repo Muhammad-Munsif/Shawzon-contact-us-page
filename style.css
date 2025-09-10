@@ -1,174 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* ########## First navbar contact us page ######## */
-*{
-    font-family: "PT Sans", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+* {
+  font-family: "PT Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-body{
-    background: #F1F3F7;
-    overflow-x: hidden;
-
+body {
+  background: #f1f3f7;
+  overflow-x: hidden;
 }
 .logo-text {
-    font-family: 'PT Sans' ;
-    color: #66bb6a;
-    font-size: 1.5rem;
+  font-family: "PT Sans";
+  color: #66bb6a;
+  font-size: 1.5rem;
 }
 
 .navbar {
-    border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .input-group .form-control {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .input-group .btn {
-    background-color: #66bb6a;
-    border-radius: 0;
+  background-color: #66bb6a;
+  border-radius: 0;
 }
 
 .badge {
-    font-size: 0.75rem;
-    padding: 0.25em 0.5em;
+  font-size: 0.75rem;
+  padding: 0.25em 0.5em;
 }
 /* ########## First navbar contact us page ######## */
 
 /* ########## Second navbar contact us page ######## */
 .navbar-nav .nav-item .nav-link {
-    color: #555;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
+  color: #555;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
 }
 
 .navbar-nav .nav-item .dropdown-menu {
-    border-radius: 0;
-    padding: 0.5rem 0;
+  border-radius: 0;
+  padding: 0.5rem 0;
 }
 
 .navbar-brand {
-    font-weight: 600;
-    font-size: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .navbar-toggler {
-    border-color: transparent;
+  border-color: transparent;
 }
 
 .navbar-toggler-icon {
-    font-size: 1.25rem;
-    color: #000;
+  font-size: 1.25rem;
+  color: #000;
 }
-.bi-icons{
-    color: #569F3A;
-
+.bi-icons {
+  color: #569f3a;
 }
 
 /* ########## Second navbar contact us page######## */
-.container-contact-us{
-    box-shadow: 0px 0px 25px 0px #0000000F;
-
+.container-contact-us {
+  box-shadow: 0px 0px 25px 0px #0000000f;
 }
 .breadcrumb-section {
-    background-color: #fff;
-    padding:20px;
-    border-radius: 20px;
-    margin: 20px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 0;
 }
 
 .breadcrumb-section h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .breadcrumb-section .breadcrumb {
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 14px;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 .breadcrumb-section .breadcrumb-item a {
-    color: #6c757d;
-    text-decoration: none;
+  color: #6c757d;
+  text-decoration: none;
 }
 
 .breadcrumb-section .breadcrumb-item.active {
-    color: #000;
+  color: #000;
 }
 /* Contact Form section designed */
 
 .contact-heading {
-    font-size: 36px;
-    font-weight: 700;
-    color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
 }
 
 .contact-info p {
-    font-size: 16px;
-    color: #666666;
-    margin-bottom: 15px;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 15px;
 }
 
 .contact-info .icon {
-    width: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .card {
-    border-radius: 8px;
-    background-color: white;
-    border: none;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
 }
 .form-control {
-    border-radius: 8px;
-    padding: 15px;
-    font-size: 16px;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 16px;
 }
 
 textarea.form-control {
-    resize: none;
+  resize: none;
 }
 
 .btn-success {
-    background-color: #4CAF50;
-    border-radius: 8px;
-    font-size: 18px;
-    padding: 10px 0;
-    border: none;
+  background-color: #4caf50;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px 0;
+  border: none;
 }
 
 .btn-success:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 /* <###########> Media Query Designed <###########> */
 @media (max-width: 768px) {
-    .contact-heading {
-        font-size: 1.5rem;
-    }
-    .contact-info p {
-        font-size: 0.9rem;
-    }
-    .form-control {
-        font-size: 0.9rem;
-    }
-    .card {
-        padding: 20px;
-    }
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+  .form-control {
+    font-size: 0.9rem;
+  }
+  .card {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 576px) {
-    .contact-heading {
-        font-size: 1.2rem;
-    }
-    .card {
-        padding: 15px;
-    }
-    .form-control {
-        font-size: 0.85rem;
-    }
+  .contact-heading {
+    font-size: 1.2rem;
+  }
+  .card {
+    padding: 15px;
+  }
+  .form-control {
+    font-size: 0.85rem;
+  }
 }
